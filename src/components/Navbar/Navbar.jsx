@@ -18,26 +18,26 @@ const Navbar = () => {
         <li className="p__opensans">
           <a href="#about">About</a>
         </li>
-        <li>
+        <li className="p__opensans">
           <a href="#menu">Menu</a>
         </li>
-        <li>
+        <li className="p__opensans">
           <a href="#awards">Awards</a>
         </li>
-        <li>
+        <li className="p__opensans">
           <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login">Log In / Registration</a>
+        <a href="#login" className="p__opensans">Log In / Registration</a>
         <div />
-        <a href="/">Book Table</a>
+        <a href="/" className="p__opensans">Book Table</a>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           color="#fff"
           fontSize={27}
-          onClick={() => setToggleMenu(false)}
+          onClick={() => setToggleMenu(true)}
         />
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
