@@ -1,3 +1,22 @@
+Build a landing page of food restaurant with latest technology ReactJS.
+![image](https://user-images.githubusercontent.com/34640475/200168206-8685ac61-20ab-4cb2-b274-257a963e00c2.png)
+
+
+
+Key Features
+
+Toggle Menu
+Scrooli Gallery
+Video Section
+
+Key Technologies
+
+React JS
+CSS3
+BEM Convention
+Responsive Layout
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
